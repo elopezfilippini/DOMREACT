@@ -81,6 +81,8 @@ function buildToDos(toDos) {
 
 function displayToDos() {
   // Tu código acá:
+  var Todoinput = Object.getElementById("toDoInput").value
+  var nuevotodo = new ToDo(tTodoinput)
 }
 
 // La función 'addToDo' agregará un nuevo ToDo al array 'toDoItems'
