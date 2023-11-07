@@ -67,7 +67,11 @@ function buildToDo(todo, index) {
 // Devolver el nuevo array
 
 function buildToDos(toDos) {
+  var i = 0
+  arragenerado= []
+  for i in toDos {}
   // Tu código acá:
+  
 }
 
 // La función 'displayToDos' se va a encargar de que se vean los toDo's en pantalla
@@ -80,6 +84,9 @@ function buildToDos(toDos) {
 //  6) Abrir o en el caso de ya tenerlo abierto, recargar, la página
 
 function displayToDos() {
+  toDoContainer = document.getElementById("ToDoContainer")
+  toDoContainer.innerHTML =""
+  buildToDo(toDoItems)  
   // Tu código acá:
   var Todoinput = Object.getElementById("toDoInput").value
   var nuevotodo = new ToDo(tTodoinput)
@@ -96,6 +103,12 @@ function displayToDos() {
 
 function addToDo() {
   // Tu código acá:
+  var ingreso = document.getElementById("toDoInput")
+  var agregado = new ToDo(ingreso.nodeValue)
+  toDoItems.push(agregado)
+  ingreso.nodeValue=""
+  displayToDos()
+  
 }
 
 // Agregar un 'Event Listener' para que cada vez que el botón 'AGREGAR' sea clickeado
