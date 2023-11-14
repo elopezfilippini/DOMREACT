@@ -31,7 +31,7 @@ var selectorTypeMatcher = function (selector) {
 var matchFunctionMaker = function (selector) {
   var selectorType = selectorTypeMatcher(selector);
   var matchFunction;
-  if (selectorType === "id") {
+  if (selectorType === "id") { if  (document.querySelector(selector)) return true; else return false
   } else if (selectorType === "class") {
   } else if (selectorType === "tag.class") {
   } else if (selectorType === "tag") {
