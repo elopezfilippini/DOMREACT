@@ -12,7 +12,9 @@
     "standard": "^17.0.0"
   },
   "standard": {
-    "env": [ "mocha" ]
+    "env": [
+      "mocha"
+    ]
   },
   "author": "Henry",
   "license": "ISC",
@@ -31,5 +33,6 @@
     "markdown-it": "^12.3.0",
     "markdown-it-anchor": "^8.4.1",
     "markdown-it-highlightjs": "^3.5.0"
-  }
+  },
+  "keywords": []
 }

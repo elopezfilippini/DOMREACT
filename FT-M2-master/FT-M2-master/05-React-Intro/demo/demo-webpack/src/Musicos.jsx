@@ -1,7 +1,7 @@
 import React from 'react';
 import Musico from './Musico.jsx';
 
-export default function Musicos({ musicos }) {
+function Musicos({ musicos }) {
     return (
       <div>
         {
@@ -12,3 +12,5 @@ export default function Musicos({ musicos }) {
       </div>
     )
 };
+
+export default Musicos

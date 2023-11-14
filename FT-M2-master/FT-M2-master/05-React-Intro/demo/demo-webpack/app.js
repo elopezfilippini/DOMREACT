@@ -6,9 +6,9 @@ import SaludoFuncional from './src/SaludoFuncional.jsx';
 
 const musicos = [
   {
-    name: 'John',
-    lastname: 'Lennon',
-    band: 'The Beatles'
+    name: 'Jimmi',
+    lastname: 'Hendrix',
+    band: 'UKNW'
   },
   {
     name: 'David',
@@ -24,10 +24,11 @@ const musicos = [
 
 function App() {
   return (
-    <div>
-      <Saludo nombre='Soy Henry' lang='en'/>
+    <div pp>
+      {/* <Saludo nombre='Soy Henry' lang='en'/>
       <SaludoFuncional nombre='Soy Henry' lang='es'/>
-      <Musicos musicos={musicos} />
+      <Musicos musicos={musicos} /> */}
+      <h1>Los de boca son...</h1>
     </div>
   )
 }
